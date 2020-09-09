@@ -2,6 +2,7 @@ package config
 
 var DATA_FILE = "data/DataToFilter.txt"
 var EXCEL_FILE = "data/FileToFilter.xlsx"
+var OUTPUT_FILE = "data/Results.xlsx"
 
 var TRACING_NUMBER_COLUMN = "K"
 var SHEET_NAME = "Report"
