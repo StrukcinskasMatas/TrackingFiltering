@@ -6,4 +6,4 @@ var OUTPUT_FILE = "data/Results.xlsx"
 
 var TRACING_NUMBER_COLUMN = "K"
 var SHEET_NAME = "Report"
-var MAX_LINES = 30000
+var MAX_LINES = 15000

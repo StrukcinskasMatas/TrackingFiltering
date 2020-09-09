@@ -42,7 +42,7 @@ func filterExcelFile(fileName string, sheetName string, valuesToRemove []string,
 
 	valuesProcessed := 0
 
-	for i := 2; i < 30000; i++ {
+	for i := 2; i < config.MAX_LINES; i++ {
 		cellValue, err := excelFile.GetCellValue(sheetName, fmt.Sprintf("%s%d", config.TRACING_NUMBER_COLUMN, i))
 		if err != nil {
 			return err
